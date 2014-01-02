@@ -1,4 +1,4 @@
-Skeleton Cookbook
+Ruby 2.0 Cookbook
 =================
 
 Requirements
@@ -6,23 +6,23 @@ Requirements
 
 ### Platform:
 
-*List supported platforms here*
+Ubuntu 12.0.4LTS
 
 ### Cookbooks:
 
-*List cookbook dependencies here*
+apt
 
 Attributes
 ----------
 
-*List attributes here*
+None.
 
 Recipes
 -------
 
 ### ruby2::default
 
-*Explain what the recipe does here*
+Installs Ruby 2.0 via the Brightbox Ruby NG PPA - https://launchpad.net/~brightbox/+archive/ruby-ng
 
 Testing
 -------

@@ -18,4 +18,17 @@
 # limitations under the License.
 #
 
-# Install/configure something here
+apt_repository 'ruby-ng' do
+  uri          'http://ppa.launchpad.net/brightbox/ruby-ng/ubuntu'
+  distribution node['lsb']['codename']
+  components   ['main']
+  keyserver    'keyserver.ubuntu.com'
+  key          'C3173AA6'
+end
+
+package 'ruby2.0'
+package 'ruby2.0-dev'
+
+gem_package 'bundler' do
+  options('--no-ri --no-rdoc')
+end
