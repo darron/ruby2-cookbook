@@ -26,8 +26,8 @@ apt_repository 'ruby-ng' do
   key          'C3173AA6'
 end
 
-package 'ruby2.0'
-package 'ruby2.0-dev'
+package "ruby#{node['ruby']['version']}"
+package "ruby#{node['ruby']['version']}-dev"
 
 gem_package 'bundler' do
   options('--no-ri --no-rdoc')

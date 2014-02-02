@@ -18,4 +18,4 @@
 # limitations under the License.
 #
 
-# Set meaningful node attributes here
+default['ruby']['version'] = '2.1'
