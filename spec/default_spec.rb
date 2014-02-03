@@ -5,12 +5,12 @@ require 'spec_helper'
 describe 'ruby2::default' do
   let(:chef_run) { ChefSpec::Runner.new.converge(described_recipe) }
 
-  it 'installs ruby 2.0' do
-    expect(chef_run).to install_package('ruby2.0')
+  it 'installs ruby 2.1' do
+    expect(chef_run).to install_package('ruby2.1')
   end
 
   it 'installs ruby 2.0-dev' do
-    expect(chef_run).to install_package('ruby2.0-dev')
+    expect(chef_run).to install_package('ruby2.1-dev')
   end
 
   it 'installs a gem_package' do
