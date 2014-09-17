@@ -21,9 +21,6 @@ RSpec.configure do |config|
   # Specify the operating version to mock Ohai data from
   config.version = '12.04'
 
-  # Use color output for RSpec
-  config.color_enabled = true
-
   # Use documentation output formatter
   # config.formatter = :documentation
 end

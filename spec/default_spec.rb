@@ -9,7 +9,7 @@ describe 'ruby2::default' do
     expect(chef_run).to install_package('ruby2.1')
   end
 
-  it 'installs ruby 2.0-dev' do
+  it 'installs ruby 2.1-dev' do
     expect(chef_run).to install_package('ruby2.1-dev')
   end
 

@@ -1,4 +1,4 @@
-Ruby 2.0 Cookbook
+Ruby 2.x Cookbook
 =================
 
 Requirements
@@ -22,7 +22,7 @@ Recipes
 
 ### ruby2::default
 
-Installs Ruby 2.0 via the Brightbox Ruby NG PPA - https://launchpad.net/~brightbox/+archive/ruby-ng
+Installs Ruby 2.x via the Brightbox Ruby NG PPA - https://launchpad.net/~brightbox/+archive/ruby-ng
 
 Testing
 -------
@@ -46,7 +46,7 @@ License and Author
 
 Author:: Darron Froese (darron@froese.org)
 
-Copyright:: 2013, Darron Froese
+Copyright:: 2014, Darron Froese
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
